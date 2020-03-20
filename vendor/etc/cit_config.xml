@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<parameter>
+  <item name="Config">
+    <!--value = 0x80000 + 7001-->
+    <param key="QCRIL_OEM_HOOK_REQID" value="531289"/>
+  </item>
+
+  <item name="SecretCode">
+    <param key="WifiLogVer" value="V2"/>
+  </item>
+  
+  <item name="LED">
+    <param key="hasBacklight" value="true"/>
+    <param key="hasWhiteLED" value="true"/>
+    <param key="hasRedLED" value="false"/>
+    <param key="hasGreenLED" value="false"/>
+    <param key="hasBlueLED" value="false"/>
+    <param key="hasBackTorch" value="false"/>
+    <param key="hasBackTorch2" value="false"/>
+    <param key="hasFrontTorch1" value="false"/>
+    <param key="hasBackTorch1_2" value="true"/>
+    <param key="hasKeyLED" value="false"/>
+  </item>
+    
+    <item name="FPSelf">
+    <param key="TestName_Fpc" value="com.fingerprints.sensortesttool.activities.STTActivity"/>
+    <param key="SelfTestName_Goodix" value="com.goodix.gftest.HomeActivity"/>
+    <param key="CheckTestName_Goodix" value="com.goodix.gftest.PixelTestActivity"/>
+  </item>
+   
+  <item name="Camera">
+    <param key="hasTwinFrontCamera" value="true"/>
+    <param key="FrontCameraRotate" value="0"/>
+	<param key="FrontViceCameraRotate" value="0"/>
+	<param key="BackCameraRotate" value="0"/>
+	<param key="BackViceCameraRotate" value="0"/>
+	<param key="twinBackCameraRotate" value="0"/>
+	<param key="twinFrontCameraRotate" value="0"/>
+  </item>
+  
+    <item name="AutoSpeaker_pa">
+	<param key="path_pa" value="/data/vendor/pa_cal/pa.txt"/>
+    <!--<param key="path_nxp_pa" value="/data/vendor/pa_cal/tfa98xx_cal.txt"/>-->
+	<param key="path_pa_cal" value="/data/vendor/pa_cal/tas2557_cal.txt"/>
+	<param key="path_pa_data" value="/data/vendor/pa_cal/tas2557_data.txt"/>
+	<param key="path_pa_prop" value="odm.pa-cal"/>
+	<!--<param key="path_tfa_pa_prop" value="odm.pa-tfa-cal"/>-->
+  </item>
+  
+   <item name="SarSensorTest">
+	<param key="WifiSarSupport" value="false"/>
+  </item>
+  
+  <item name="SarsensorCalibration">
+       <param key="prox_command" value="true"/>
+  </item>
+
+  <item name="SAR_SENSOR">
+    <parm key="SarFactoryEnable" value="false"/>
+  </item>
+
+</parameter>
